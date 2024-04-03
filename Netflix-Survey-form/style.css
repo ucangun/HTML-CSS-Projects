@@ -1,0 +1,74 @@
+body {
+  background-image: url(./img/background_image.jpg);
+  color: #fff;
+  font-family: ;
+}
+
+header {
+  text-align: center;
+}
+
+.header {
+  color: #fff;
+}
+
+.header span {
+  color: red;
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 30%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header__text {
+  color: #fff;
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.personal-info__box {
+  margin-bottom: 5px;
+}
+
+.personal-info label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.personal-info input {
+  padding: 5px;
+  width: 90%;
+  margin-bottom: 5px;
+}
+
+.personal-info select {
+  padding: 5px;
+  width: 95%;
+  margin-bottom: 5px;
+}
+
+.feed-back-box {
+  margin-bottom: 8px;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  border: none;
+  background-color: red;
+  color: #fff;
+  border-radius: 40px;
+  cursor: pointer;
+}
