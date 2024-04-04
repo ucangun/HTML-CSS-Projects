@@ -1,7 +1,6 @@
 body {
   background-image: url(./img/background_image.jpg);
   color: #fff;
-  font-family: ;
 }
 
 header {
@@ -56,6 +55,10 @@ main {
 
 .feed-back-box {
   margin-bottom: 8px;
+}
+
+#feedback {
+  width: 100%;
 }
 
 .btn-box {
