@@ -1,5 +1,9 @@
 body {
   background-image: url(./img/background_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
   color: #fff;
 }
 
@@ -16,7 +20,7 @@ header {
 }
 
 main {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.6);
   width: 30%;
   margin: 0 auto;
   padding: 20px;
@@ -67,7 +71,6 @@ main {
 }
 
 .btn {
-  display: inline-block;
   padding: 8px 16px;
   border: none;
   background-color: red;
