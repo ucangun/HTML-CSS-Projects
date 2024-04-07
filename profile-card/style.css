@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 80vh;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 24px;
+  padding: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgb(238, 67, 28);
+  padding: 3px;
+  margin-bottom: 10px;
+}
+
+.img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 24px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #333;
+}
+
+.job {
+  font-weight: 400;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.insta {
+  color: #e1306c;
+}
+
+.github {
+  color: black;
+}
+
+.linkedin {
+  color: rgb(8, 102, 194);
+}
+
+.twitter {
+  color: #1da1f2;
+}
+
+.button-box {
+  margin-top: 30px;
+}
+
+.button {
+  border: none;
+  display: inline-block;
+  width: 120px;
+  font-size: 18px;
+  background-color: rgb(238, 67, 28, 0.9);
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button:not(:last-child) {
+  margin-right: 10px;
+}
+
+.button:hover {
+  background-color: rgb(238, 67, 28);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.button:active {
+  transform: translateY(0px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
