@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  float: right;
+  padding: 12px;
+  margin-top: 5px;
+}
+
+.navbar > * {
+  margin-right: 10px;
+}
+
+.navbar__link:link,
+.navbar__link:visited {
+  color: #333;
+  text-decoration: none;
+}
+
+.navbar__link:hover,
+.navbar__link:active {
+  text-decoration: underline;
+}
+
+.navbar__icon {
+  width: 20px;
+  height: 20px;
+  color: #333;
+}
+.navbar__button {
+  border: none;
+  color: #fff;
+  background-color: #3d86fb;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
