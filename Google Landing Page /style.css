@@ -72,6 +72,15 @@ header {
   width: 470px;
   border: 1px solid lightgrey;
   border-radius: 25px;
+  padding-left: 50px;
+}
+
+#search:hover {
+  box-shadow: 3px 3px 5px lightgray;
+}
+
+#search:focus {
+  outline: none;
 }
 
 #mag {
@@ -79,7 +88,7 @@ header {
   width: 30px;
   position: relative;
   top: 10px;
-  right: 450px;
+  right: 455px;
 }
 
 #mic {
@@ -104,8 +113,8 @@ header {
 
 .btn:hover {
   color: #000;
-  /* border: 1px solid grey; */
-  box-shadow: 0 0 2px grey;
+  border: 1px solid lightgray;
+  box-shadow: 0.7px 0.7px 0.7px lightgray;
   cursor: pointer;
 }
 
