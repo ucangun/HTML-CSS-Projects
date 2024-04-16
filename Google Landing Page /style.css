@@ -4,37 +4,151 @@
   box-sizing: border-box;
 }
 
-.navbar {
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 100%;
+  padding: 15px 15px 0 15px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
   float: right;
-  padding: 12px;
-  margin-top: 5px;
 }
 
-.navbar > * {
-  margin-right: 10px;
-}
-
-.navbar__link:link,
-.navbar__link:visited {
-  color: #333;
+.header-links {
+  font-size: 13px;
+  color: #000;
   text-decoration: none;
+  margin-left: 15px;
 }
 
-.navbar__link:hover,
-.navbar__link:active {
+.header-links:hover {
   text-decoration: underline;
 }
 
-.navbar__icon {
-  width: 20px;
-  height: 20px;
-  color: #333;
+#appicon {
+  opacity: 50%;
+  vertical-align: middle;
 }
-.navbar__button {
-  border: none;
+
+#appicon:hover {
+  opacity: 100%;
+  text-decoration: none;
+}
+
+#sign-in-btn {
   color: #fff;
-  background-color: #3d86fb;
-  padding: 6px 12px;
-  border-radius: 4px;
+  background-color: #4285f4;
+  border: none;
+  font-weight: bold;
+  height: 30px;
+  width: 70px;
+  border-radius: 2px;
+}
+
+#sign-in-btn:hover {
+  text-decoration: none;
   cursor: pointer;
+}
+
+#google-logo {
+  display: block;
+  margin: 200px auto 30px auto;
+}
+
+.searchbar {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#search {
+  height: 40px;
+  width: 470px;
+  border: 1px solid lightgrey;
+  border-radius: 25px;
+}
+
+#mag {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: 10px;
+  right: 450px;
+}
+
+#mic {
+  height: 20px;
+  position: relative;
+  top: 5px;
+  right: 70px;
+}
+
+.btn-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.btn {
+  height: 30px;
+  width: 120px;
+  color: grey;
+  border: hidden;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  color: #000;
+  /* border: 1px solid grey; */
+  box-shadow: 0 0 2px grey;
+  cursor: pointer;
+}
+
+.btn1 {
+  margin-right: 8px;
+}
+
+.lang {
+  text-align: center;
+  font-size: 14px;
+}
+
+footer {
+  font-size: 13px;
+  width: 100%;
+  line-height: 30px;
+  background-color: #f2f2f2;
+  position: fixed;
+  bottom: 0;
+  padding: 3px;
+}
+
+.country {
+  color: #5f6368;
+  margin-left: 15px;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-right {
+  float: right;
+}
+
+.footer-links {
+  color: #5f6368;
+  text-decoration: none;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.footer-links:hover {
+  text-decoration: underline;
 }
