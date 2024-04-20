@@ -298,5 +298,96 @@ section {
 /* ---------------- */
 
 .projects {
+  font-family: var(--font-2);
   background-color: var(--second-bg-color);
+  color: var(--text-color);
+  text-align: center;
+  padding-top: 9.6rem;
+  padding-bottom: 9.6rem;
+}
+
+.projects-header {
+  font-size: 4.8rem;
+  font-family: var(--font-2);
+  font-weight: 700;
+  margin-bottom: 6.4rem;
+}
+
+.projects-header span {
+  color: var(--main-color);
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.gallery-img {
+  flex: 1 1 32rem;
+  border-radius: 3.2rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery-img img {
+  width: 100%;
+  transition: all 1s;
+}
+
+.pro {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  transform: translateY(100%);
+  transition: all 1s;
+}
+
+.gallery-img:hover .pro {
+  transform: translateY(-2px);
+}
+
+.pro a {
+  font-family: var(--font-1);
+  font-size: 3.2rem;
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+/* ---------------- */
+/*       FOOTER     */
+/* ---------------- */
+
+.footer {
+  background-color: var(--second-bg-color);
+  padding: 3.2rem 9%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-text {
+  font-size: 1.6rem;
+  font-family: var(--font-2);
+  color: var(--text-color);
+}
+
+.footer-icon a {
+  text-decoration: none;
+  background-color: var(--main-color);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0 1.6rem var(--main-color);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-icon a i {
+  font-size: 5rem;
+  color: var(--second-bg-color);
 }
