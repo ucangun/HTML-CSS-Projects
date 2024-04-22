@@ -61,7 +61,6 @@ section {
 }
 
 .header-navbar a {
-  font-weight: 400;
   font-size: 1.9rem;
   color: var(--text-color);
   text-decoration: none;
@@ -90,7 +89,7 @@ section {
   color: var(--text-color);
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .home-text__header h1 {
@@ -108,32 +107,39 @@ section {
 
 .home-text__par {
   font-family: var(--font-3);
-  font-weight: 400;
   font-size: 1.6rem;
 }
 
 .home-text__links {
+  width: 55%;
   display: flex;
-  gap: 3rem;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5rem 3.2rem;
 }
 
-.home-text__links a {
-  width: 4rem;
-  height: 4rem;
+.icon {
+  width: 4.1rem;
+  height: 4.1rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   font-size: 4.8rem;
-  font-weight: 400;
-  color: var(--main-color);
-  margin: 6rem 3.2rem;
-  text-decoration: none;
 
-  text-align: center;
+  color: var(--main-color);
+  text-decoration: none;
   border-radius: 50%;
 }
 
-.home-text__links a:hover {
+.icon:hover {
+  display: inline-flex;
   background: var(--main-color);
   color: var(--second-bg-color);
   box-shadow: 0 0 4.8rem var(--main-color);
+}
+
+.home-text__btn {
+  margin-top: 2rem;
 }
 
 .home-text__btn a {
@@ -289,7 +295,6 @@ section {
 }
 
 .card p {
-  font-weight: 400;
   font-size: 1.1rem;
 }
 
@@ -382,12 +387,12 @@ section {
   border-radius: 1rem;
   padding: 2rem;
   box-shadow: 0 0 1.6rem var(--main-color);
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.footer-icon a i {
+.ficon {
   font-size: 5rem;
   color: var(--second-bg-color);
 }
