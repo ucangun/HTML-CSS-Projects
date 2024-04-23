@@ -39,8 +39,6 @@ header p {
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 1rem;
-  position: relative;
 }
 
 .container2,
@@ -76,7 +74,6 @@ section {
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   margin: auto;
-  position: relative;
 }
 
 .container8,
