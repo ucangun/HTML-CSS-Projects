@@ -1,5 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   display: flex;
+  max-width: 96rem;
 }
 
 img {
@@ -7,17 +14,11 @@ img {
   box-shadow: 0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.655);
 }
 
-.flex {
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-}
-
 /* ---------------------- */
 
 main {
-  width: 40rem;
-  height: 60rem;
+  width: 45rem;
+  height: 65rem;
   background-color: #3333330e;
   padding: 3rem;
 }
@@ -35,10 +36,11 @@ header p {
 
 .container {
   height: 50rem;
-  width: 40rem;
+
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 1rem;
+  position: relative;
 }
 
 .container2,
@@ -49,8 +51,7 @@ header p {
 /* ------------------------- */
 
 section {
-  width: 40rem;
-  height: 80rem;
+  height: 75rem;
   background-color: #3333330e;
   margin: auto;
 }
@@ -58,6 +59,7 @@ section {
 .side-header h2 {
   text-align: center;
   margin-bottom: 2rem;
+  padding-top: 1rem;
 }
 
 .side-header p {
@@ -74,6 +76,7 @@ section {
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   margin: auto;
+  position: relative;
 }
 
 .container8,
@@ -83,3 +86,37 @@ section {
 }
 
 /* ------------------------ */
+
+.grid-cell {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 8px;
+}
+
+.vertical {
+  writing-mode: vertical-lr;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+}
+
+.neg-margin {
+  margin-top: -4rem;
+}
+
+.neg-margin-less {
+  margin-top: -2rem;
+}
+
+.top-margin {
+  margin-top: 1rem;
+}
+
+/* .container1::after {
+  content: "PRODUCT OWNER";
+  font-size: 0.7rem;
+  transform: rotate(90deg);
+  writing-mode: vertical-rl;
+  position: absolute;
+  top: 1.4rem;
+  left: 11.5rem;
+} */
