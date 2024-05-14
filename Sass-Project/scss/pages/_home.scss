@@ -1,5 +1,8 @@
+@use "../abstracts/mixins";
+@use "../abstracts/variables";
+
 .home-bgImg-container {
-  @include bgImg(100vh, $pathname1);
+  @include mixins.bgImg(100vh, variables.$pathname1);
 }
 
 .home {
@@ -14,7 +17,7 @@
     font-size: 5rem;
     padding: 1rem;
     margin-bottom: 1rem;
-    border-bottom: 2px solid $text-color;
+    border-bottom: 2px solid variables.$text-color;
     width: 100%;
 
     &--last {

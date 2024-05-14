@@ -1,4 +1,7 @@
-@include media-xsm {
+@use "../abstracts/mixins";
+@use "../abstracts/variables";
+
+@include mixins.media-xsm {
   .nav {
     padding: 0.5rem;
     &__list {
@@ -22,7 +25,7 @@
     }
   }
 }
-@include media-sm {
+@include mixins.media-sm {
   .nav {
     padding: 0.7rem;
     &__list {
@@ -47,7 +50,7 @@
   }
 }
 
-@include media-md {
+@include mixins.media-md {
   .nav {
     &__item {
       padding-right: 1.3rem;
@@ -61,7 +64,7 @@
   }
 }
 
-@include media-lg {
+@include mixins.media-lg {
   .nav {
     &__item {
       padding-right: 1.5rem;
@@ -79,7 +82,7 @@
   }
 }
 
-@include media-xl {
+@include mixins.media-xl {
   .projects__item {
     width: 33%;
   }

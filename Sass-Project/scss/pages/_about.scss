@@ -1,5 +1,8 @@
+@use "../abstracts/mixins";
+@use "../abstracts/variables";
+
 .about-bgImg-container {
-  @include bgImg(50vh, $pathname1);
+  @include mixins.bgImg(50vh, variables.$pathname1);
 
   display: flex;
   flex-direction: column;
@@ -10,7 +13,7 @@
 
     h2 {
       font-size: 3rem;
-      color: $secondary-color;
+      color: variables.$secondary-color;
     }
 
     p {
@@ -29,9 +32,9 @@
 
   .about__job {
     margin: 1rem;
-    background-color: lighten($primary-color, 10%);
+    background-color: lighten(variables.$primary-color, 10%);
     padding: 1rem;
-    border-bottom: 5px solid $secondary-color;
+    border-bottom: 5px solid variables.$secondary-color;
 
     h2,
     h3 {

@@ -1,5 +1,5 @@
-@import "./abstracts/mixins";
-@import "./abstracts/variables";
+@use "./abstracts/mixins";
+@use "./abstracts/variables";
 
 @import "./base/reset";
 
@@ -16,14 +16,14 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css);
 
 body {
-  font-family: $font-family;
-  color: $text-color;
-  background-color: $primary-color;
+  font-family: variables.$font-family;
+  color: variables.$text-color;
+  background-color: variables.$primary-color;
 }
 
 a {
   text-decoration: none;
-  color: $text-color;
+  color: variables.$text-color;
 }
 
 h1,
